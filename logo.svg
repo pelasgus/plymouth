@@ -1,0 +1,20 @@
+<!-- logo.svg -->
+<!-- Author: D.A.Pelasgus -->
+
+<svg width="300" height="300" viewBox="-150 -150 300 300">
+
+    <!-- Black background rectangle covering the entire canvas -->
+    <rect x="-150" y="-150" width="300" height="300" fill="#000000"/>
+
+    <!-- Circle with radius 100 -->
+    <circle cx="0" cy="0" r="100" fill="none" stroke="white" stroke-width="10" />
+
+    <!-- Horizontal Line of Pi -->
+    <line x1="-61.8" y1="-79" x2="61.8" y2="-79" stroke="white" stroke-width="10" />
+
+    <!-- Left Vertical Line of Pi -->
+    <line x1="-61.8" y1="79" x2="-61.8" y2="-79" stroke="white" stroke-width="10" />
+
+    <!-- Right Vertical Line of Pi -->
+    <line x1="61.8" y1="79" x2="61.8" y2="-79" stroke="white" stroke-width="10" />
+</svg>
