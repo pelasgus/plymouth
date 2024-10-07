@@ -1,3 +1,9 @@
-# Display the static image centered on the screen
-image = Image("logo.png")
-image.SetPosition(0.5, 0.5, 0.5)
+// Load the background image
+Window.SetBackgroundTopColor (0.0, 0.0, 0.0); # Black color
+Window.SetBackgroundBottomColor (0.0, 0.0, 0.0); # Black color
+
+# Load and show the image
+sprite = ImageSprite();
+sprite.SetImage("logo.png");
+sprite.SetPosition(Screen.Width() * 0.5, Screen.Height() * 0.5, 0.5, 0.5);
+sprite.SetLayer(0);
