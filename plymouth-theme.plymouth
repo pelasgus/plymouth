@@ -1,6 +1,6 @@
 [Plymouth Theme]
 Name=plymouth-theme
-Description=A simple theme with a static image
+Description=Pelasgian plymouththeme with a static image.
 ModuleName=script
 
 [script]
